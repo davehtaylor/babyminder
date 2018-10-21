@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5513512D217B911A00A949AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513512C217B911A00A949AF /* AppDelegate.swift */; };
+		5513512F217B911A00A949AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513512E217B911A00A949AF /* ViewController.swift */; };
+		55135132217B911A00A949AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55135130217B911A00A949AF /* Main.storyboard */; };
+		55135134217B911C00A949AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55135133217B911C00A949AF /* Assets.xcassets */; };
+		55135137217B911C00A949AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55135135217B911C00A949AF /* LaunchScreen.storyboard */; };
+		55135142217B911C00A949AF /* BabyminderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55135141217B911C00A949AF /* BabyminderTests.swift */; };
+		5513514D217B911C00A949AF /* BabyminderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513514C217B911C00A949AF /* BabyminderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5513513E217B911C00A949AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55135121217B911A00A949AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55135128217B911A00A949AF;
+			remoteInfo = Babyminder;
+		};
+		55135149217B911C00A949AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55135121217B911A00A949AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55135128217B911A00A949AF;
+			remoteInfo = Babyminder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55135129217B911A00A949AF /* Babyminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Babyminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5513512C217B911A00A949AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5513512E217B911A00A949AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55135131217B911A00A949AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55135133217B911C00A949AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55135136217B911C00A949AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55135138217B911C00A949AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5513513D217B911C00A949AF /* BabyminderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabyminderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55135141217B911C00A949AF /* BabyminderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyminderTests.swift; sourceTree = "<group>"; };
+		55135143217B911C00A949AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55135148217B911C00A949AF /* BabyminderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabyminderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5513514C217B911C00A949AF /* BabyminderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyminderUITests.swift; sourceTree = "<group>"; };
+		5513514E217B911C00A949AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55135126217B911A00A949AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5513513A217B911C00A949AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55135145217B911C00A949AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55135120217B911A00A949AF = {
+			isa = PBXGroup;
+			children = (
+				5513512B217B911A00A949AF /* Babyminder */,
+				55135140217B911C00A949AF /* BabyminderTests */,
+				5513514B217B911C00A949AF /* BabyminderUITests */,
+				5513512A217B911A00A949AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5513512A217B911A00A949AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55135129217B911A00A949AF /* Babyminder.app */,
+				5513513D217B911C00A949AF /* BabyminderTests.xctest */,
+				55135148217B911C00A949AF /* BabyminderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5513512B217B911A00A949AF /* Babyminder */ = {
+			isa = PBXGroup;
+			children = (
+				5513512C217B911A00A949AF /* AppDelegate.swift */,
+				5513512E217B911A00A949AF /* ViewController.swift */,
+				55135130217B911A00A949AF /* Main.storyboard */,
+				55135133217B911C00A949AF /* Assets.xcassets */,
+				55135135217B911C00A949AF /* LaunchScreen.storyboard */,
+				55135138217B911C00A949AF /* Info.plist */,
+			);
+			path = Babyminder;
+			sourceTree = "<group>";
+		};
+		55135140217B911C00A949AF /* BabyminderTests */ = {
+			isa = PBXGroup;
+			children = (
+				55135141217B911C00A949AF /* BabyminderTests.swift */,
+				55135143217B911C00A949AF /* Info.plist */,
+			);
+			path = BabyminderTests;
+			sourceTree = "<group>";
+		};
+		5513514B217B911C00A949AF /* BabyminderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5513514C217B911C00A949AF /* BabyminderUITests.swift */,
+				5513514E217B911C00A949AF /* Info.plist */,
+			);
+			path = BabyminderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55135128217B911A00A949AF /* Babyminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55135151217B911C00A949AF /* Build configuration list for PBXNativeTarget "Babyminder" */;
+			buildPhases = (
+				55135125217B911A00A949AF /* Sources */,
+				55135126217B911A00A949AF /* Frameworks */,
+				55135127217B911A00A949AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Babyminder;
+			productName = Babyminder;
+			productReference = 55135129217B911A00A949AF /* Babyminder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5513513C217B911C00A949AF /* BabyminderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55135154217B911C00A949AF /* Build configuration list for PBXNativeTarget "BabyminderTests" */;
+			buildPhases = (
+				55135139217B911C00A949AF /* Sources */,
+				5513513A217B911C00A949AF /* Frameworks */,
+				5513513B217B911C00A949AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5513513F217B911C00A949AF /* PBXTargetDependency */,
+			);
+			name = BabyminderTests;
+			productName = BabyminderTests;
+			productReference = 5513513D217B911C00A949AF /* BabyminderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55135147217B911C00A949AF /* BabyminderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55135157217B911C00A949AF /* Build configuration list for PBXNativeTarget "BabyminderUITests" */;
+			buildPhases = (
+				55135144217B911C00A949AF /* Sources */,
+				55135145217B911C00A949AF /* Frameworks */,
+				55135146217B911C00A949AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5513514A217B911C00A949AF /* PBXTargetDependency */,
+			);
+			name = BabyminderUITests;
+			productName = BabyminderUITests;
+			productReference = 55135148217B911C00A949AF /* BabyminderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55135121217B911A00A949AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Dave Taylor";
+				TargetAttributes = {
+					55135128217B911A00A949AF = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					5513513C217B911C00A949AF = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 55135128217B911A00A949AF;
+					};
+					55135147217B911C00A949AF = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 55135128217B911A00A949AF;
+					};
+				};
+			};
+			buildConfigurationList = 55135124217B911A00A949AF /* Build configuration list for PBXProject "Babyminder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55135120217B911A00A949AF;
+			productRefGroup = 5513512A217B911A00A949AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55135128217B911A00A949AF /* Babyminder */,
+				5513513C217B911C00A949AF /* BabyminderTests */,
+				55135147217B911C00A949AF /* BabyminderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55135127217B911A00A949AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55135137217B911C00A949AF /* LaunchScreen.storyboard in Resources */,
+				55135134217B911C00A949AF /* Assets.xcassets in Resources */,
+				55135132217B911A00A949AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5513513B217B911C00A949AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55135146217B911C00A949AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55135125217B911A00A949AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5513512F217B911A00A949AF /* ViewController.swift in Sources */,
+				5513512D217B911A00A949AF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55135139217B911C00A949AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55135142217B911C00A949AF /* BabyminderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55135144217B911C00A949AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5513514D217B911C00A949AF /* BabyminderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5513513F217B911C00A949AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55135128217B911A00A949AF /* Babyminder */;
+			targetProxy = 5513513E217B911C00A949AF /* PBXContainerItemProxy */;
+		};
+		5513514A217B911C00A949AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55135128217B911A00A949AF /* Babyminder */;
+			targetProxy = 55135149217B911C00A949AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55135130217B911A00A949AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55135131217B911A00A949AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55135135217B911C00A949AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55135136217B911C00A949AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5513514F217B911C00A949AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55135150217B911C00A949AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55135152217B911C00A949AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8ZRL3KT8K;
+				INFOPLIST_FILE = Babyminder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Taylor.Babyminder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55135153217B911C00A949AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8ZRL3KT8K;
+				INFOPLIST_FILE = Babyminder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Taylor.Babyminder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		55135155217B911C00A949AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8ZRL3KT8K;
+				INFOPLIST_FILE = BabyminderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Taylor.BabyminderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Babyminder.app/Babyminder";
+			};
+			name = Debug;
+		};
+		55135156217B911C00A949AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8ZRL3KT8K;
+				INFOPLIST_FILE = BabyminderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Taylor.BabyminderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Babyminder.app/Babyminder";
+			};
+			name = Release;
+		};
+		55135158217B911C00A949AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8ZRL3KT8K;
+				INFOPLIST_FILE = BabyminderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Taylor.BabyminderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Babyminder;
+			};
+			name = Debug;
+		};
+		55135159217B911C00A949AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8ZRL3KT8K;
+				INFOPLIST_FILE = BabyminderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Taylor.BabyminderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Babyminder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55135124217B911A00A949AF /* Build configuration list for PBXProject "Babyminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5513514F217B911C00A949AF /* Debug */,
+				55135150217B911C00A949AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55135151217B911C00A949AF /* Build configuration list for PBXNativeTarget "Babyminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55135152217B911C00A949AF /* Debug */,
+				55135153217B911C00A949AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55135154217B911C00A949AF /* Build configuration list for PBXNativeTarget "BabyminderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55135155217B911C00A949AF /* Debug */,
+				55135156217B911C00A949AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55135157217B911C00A949AF /* Build configuration list for PBXNativeTarget "BabyminderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55135158217B911C00A949AF /* Debug */,
+				55135159217B911C00A949AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55135121217B911A00A949AF /* Project object */;
+}
